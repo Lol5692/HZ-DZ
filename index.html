@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ХЗ-ДЗ | 6-А клас</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; background-color: #f4f7f9; color: #333; }
+
+        /* Шапка в стилі ХЗ-ДЗ */
+        header {
+            background-color: #0054a6; color: white; padding: 12px 5%;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo-area { display: flex; align-items: center; gap: 10px; }
+        .logo-box { 
+            background: #d9534f; /* Червоний акцент для ХЗ */
+            color: white; padding: 2px 8px; border-radius: 3px; font-weight: 900; 
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        .container { padding: 20px 5%; max-width: 1200px; margin: 0 auto; }
+        
+        .day-section { background: white; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 30px; overflow: hidden; }
+        .day-header { background: #e9eef3; padding: 10px 15px; border-bottom: 1px solid #ddd; font-weight: 700; color: #0054a6; }
+
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #f8f9fa; text-align: left; padding: 10px; font-size: 0.85rem; color: #777; border-bottom: 1px solid #eee; }
+        td { padding: 12px 10px; border-bottom: 1px solid #eee; font-size: 0.95rem; vertical-align: top; }
+        
+        .lesson-num { width: 40px; color: #999; text-align: center; }
+        .subject { width: 25%; font-weight: 600; color: #0054a6; }
+        .homework { color: #444; line-height: 1.4; }
+        .homework b { color: #d9534f; font-weight: 600; }
+        .no-data { color: #888; font-style: italic; font-size: 0.85rem; }
+
+        .contact-section { background: #fff; padding: 25px; border: 2px dashed #d9534f; border-radius: 4px; margin-top: 20px; }
+        .contact-section h3 { color: #d9534f; margin-bottom: 15px; }
+        input, textarea { width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; }
+        .send-btn { background: #d9534f; color: white; border: none; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: 700; width: 100%; }
+        
+        footer { text-align: center; padding: 30px; color: #888; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-area">
+        <div class="logo-box">ХЗ</div>
+        <span style="font-weight: 700; font-size: 1.2rem;">ХЗ-ДЗ | Щоденник 6-А</span>
+    </div>
+    <div style="font-size: 0.9rem; opacity: 0.8;">Вівторок, 5 травня 2026</div>
+</header>
+
+<div class="container">
+
+    <!-- ВІВТОРОК -->
+    <div class="day-section">
+        <div class="day-header">Вівторок, 5 травня</div>
+        <table>
+            <thead><tr><th>№</th><th>Предмет</th><th>Домашнє завдання</th></tr></thead>
+            <tbody>
+                <tr><td class="lesson-num">6</td><td class="subject">Математика</td><td class="homework"><b>Д/з:</b> виконати завдання до уроку 17 частини 8</td></tr>
+                <tr><td class="lesson-num">8</td><td class="subject">Зарубіжна літ.</td><td class="homework"><b>Д/з:</b> Виконати завдання 1-2 на с.47-51</td></tr>
+                <tr><td class="lesson-num">9</td><td class="subject">Українська мова</td><td class="no-data">ДЗ дізнатися можна у старости або служби по ДЗ</td></tr>
+                <tr><td class="lesson-num">10</td><td class="subject">Інформатика</td><td class="homework"><b>Д/з:</b> Прочитати § 7.5</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- СЕРЕДА -->
+    <div class="day-section">
+        <div class="day-header">Середа, 6 травня</div>
+        <table>
+            <thead><tr><th>№</th><th>Предмет</th><th>Домашнє завдання</th></tr></thead>
+            <tbody>
+                <tr><td class="lesson-num">7</td><td class="subject">Пізнаємо природу</td><td class="homework"><b>Д/з:</b> Виконати домашнє завдання уроку 6 (частина 8 - 9).</td></tr>
+                <tr><td class="lesson-num">8</td><td class="subject">Англійська мова</td><td class="no-data">ДЗ дізнатися можна у старости або служби по ДЗ</td></tr>
+                <tr><td class="lesson-num">12</td><td class="subject">Навчаємося разом</td><td class="homework"><b>Д/з:</b> виконати завдання до уроку 16 частини 2</td></tr>
+                <tr><td class="lesson-num">13</td><td class="subject">Фізична культура</td><td class="homework"><b>Д/з:</b> комплекс зрв</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ЧЕТВЕР -->
+    <div class="day-section">
+        <div class="day-header">Четвер, 7 травня</div>
+        <table>
+            <thead><tr><th>№</th><th>Предмет</th><th>Домашнє завдання</th></tr></thead>
+            <tbody>
+                <tr><td class="lesson-num">10</td><td class="subject">Фізичні відкриття</td><td class="homework"><b>Д/з:</b> Виконати урок 5, (зошит 1, частина 7-9).</td></tr>
+                <tr><td class="lesson-num">11</td><td class="subject">Укр. література</td><td class="homework"><b>Д/з:</b> Виконати завдання на с. 39 ч. 8-9.</td></tr>
+                <tr><td class="lesson-num">12</td><td class="subject">Географія</td><td class="homework"><b>Д/з:</b> Опрацювати урок 4, частини 9; ДЗ уроку 4 ч.9.</td></tr>
+                <tr><td class="lesson-num">13</td><td class="subject">Технології</td><td class="homework"><b>Д/з:</b> Опрацювати записи в зошиті.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- П'ЯТНИЦЯ -->
+    <div class="day-section">
+        <div class="day-header">П'ятниця, 8 травня</div>
+        <table>
+            <thead><tr><th>№</th><th>Предмет</th><th>Домашнє завдання</th></tr></thead>
+            <tbody>
+                <tr><td class="lesson-num">6</td><td class="subject">Мистецтво</td><td class="homework"><b>Д/з:</b> Прослухати "Поему-легенду мі мінор" Віктора Костенка.</td></tr>
+                <tr><td class="lesson-num">8</td><td class="subject">Пізнаємо природу</td><td class="homework"><b>Д/з:</b> Виконати домашнє завдання уроку 7 (частина 8 - 9).</td></tr>
+                <tr><td class="lesson-num">9</td><td class="subject">Україна і світ</td><td class="no-data">ДЗ дізнатися можна у старости або служби по ДЗ</td></tr>
+                <tr><td class="lesson-num">11</td><td class="subject">Фізична культура</td><td class="homework"><b>Д/з:</b> комплекс зрв</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Форма запиту -->
+    <div class="contact-section">
+        <h3>Служба по ДЗ (ХЗ-ДЗ HELP)</h3>
+        <p style="font-size: 0.8rem; margin-bottom: 10px; color: #666;">Не знаєш що робити? Пиши нам!</p>
+        <form id="botForm">
+            <input type="text" id="userName" placeholder="Твоє ім'я" required>
+            <textarea id="userMsg" placeholder="Яке ДЗ ХЗ як робити?" required></textarea>
+            <button type="submit" class="send-btn">Надіслати запит до ХЗ-ДЗ</button>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2026 ХЗ-ДЗ | Офіційний щоденник 6-А класу.
+</footer>
+
+<script>
+    const token = '8762837467:AAEZgI__udjseyD9x4M5SoKJP5GPJKgNDRc';
+    const chat_id = '8391606010';
+
+    document.getElementById('botForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const text = `🚨 ЗАПИТ ДО ХЗ-ДЗ\n👤 Від: ${document.getElementById('userName').value}\n❓ Питання: ${document.getElementById('userMsg').value}`;
+        fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(text)}`)
+        .then(() => { alert("Запит надіслано до служби ХЗ-ДЗ!"); document.getElementById('botForm').reset(); });
+    });
+</script>
+</body>
+</html>
